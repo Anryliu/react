@@ -35,12 +35,15 @@ my-app/
 
 ##  react-boilerplate[https://www.reactboilerplate.com/]
 Clone the boilerplate if you haven't downloaded it
-
+```shell
 git clone https://github.com/react-boilerplate/react-boilerplate.git
+```
 Run the setup to get everything up and running
-
+```shell
 npm run setup
+```
 And start the development server
-
+```shell
 npm run start
+```
 
