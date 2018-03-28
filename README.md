@@ -33,7 +33,7 @@ my-app/
     
 使用npm run build来编译得到生产环境，此时代码会被编译到build目录下，此时会自动将整个应用打包发布，它会自动使用Webpack控件进行优化与压缩.
 
-##  react-boilerplate[https://www.reactboilerplate.com/]
+## 2. react-boilerplate[https://www.reactboilerplate.com/]
 Clone the boilerplate if you haven't downloaded it
 ```shell
 git clone https://github.com/react-boilerplate/react-boilerplate.git
@@ -45,5 +45,40 @@ npm run setup
 And start the development server
 ```shell
 npm run start
+```
+##  3. reactweb-cli
+
+安装
+Node.js (>=4.x, 6.x preferred), npm version 3+ and Git.
+```shell
+$ npm install -g reactweb-cli
+```
+使用
+$ reactweb init <project-name>
+举例:
+```shell
+$ reactweb init my-project
+```
+此命令将会在当前目录下生成一个react web工程.使用webpack作为打包工具.
+
+### 目录结构
+```shell
+ + build         // webpack相关配置
+    + config        // 配置
+    - src           // 源码
+        - asserts       // 静态资源
+            + imgs          // 图片: png, jpg...
+            + styles        // 样式: css, less...
+        + components   // React组件
+    + static        // 高度静态资源
+    + test          // 测试相关
+    .babelrc        // babel配置
+    .eslintignore   // eslint 忽略配置
+    .eslintrc.js    // eslint 配置
+    .gitignore      // git 忽略配置
+    .postcssrc.js   // postcss配置
+    index.html      // html模板
+    package.json
+    README.md
 ```
 
