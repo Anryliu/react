@@ -33,3 +33,14 @@ my-app/
     
 使用npm run build来编译得到生产环境，此时代码会被编译到build目录下，此时会自动将整个应用打包发布，它会自动使用Webpack控件进行优化与压缩.
 
+##  react-boilerplate[https://www.reactboilerplate.com/]
+Clone the boilerplate if you haven't downloaded it
+
+git clone https://github.com/react-boilerplate/react-boilerplate.git
+Run the setup to get everything up and running
+
+npm run setup
+And start the development server
+
+npm run start
+
