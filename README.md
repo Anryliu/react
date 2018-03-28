@@ -1,6 +1,6 @@
 # react 脚手架
 # 开始开车
-## create-react-app 
+## 1 . create-react-app 
 create-react-app是来自于Facebook出品的零配置命令行工具，能够帮你自动创建基于Webpack+ES6的最简易的React项目模板，有助于初学者快速上手实践。安装create-react-app的方式也非常简单，可以直接使用npm命令进行全局安装。
 ```shell
 npm install -g create-react-app
