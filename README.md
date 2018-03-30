@@ -29,8 +29,16 @@ my-app/
     logo.svg
     
  ```
+ 
 使用npm start来启动配置，那么自动会进入开发模式，此时热替换是处于自动激活状态，你也可以实时地在界面或者命令行中看到错误提示.
-    
+
+```shell
+npm test
+```
+###  create-react-app 优点
+
+1.
+    
 使用npm run build来编译得到生产环境，此时代码会被编译到build目录下，此时会自动将整个应用打包发布，它会自动使用Webpack控件进行优化与压缩.
 
 ## 2. react-boilerplate[https://www.reactboilerplate.com/]
